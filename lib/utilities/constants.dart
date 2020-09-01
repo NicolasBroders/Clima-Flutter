@@ -15,6 +15,25 @@ const kButtonTextStyle = TextStyle(
   fontFamily: 'Spartan MB',
 );
 
+const kInputTextStyle = InputDecoration(
+  filled: true,
+  fillColor: Colors.white,
+  icon: Icon(
+    Icons.location_city,
+    color: Colors.white,
+  ),
+  hintText: 'Enter City Name',
+  hintStyle: TextStyle(color: Colors.grey),
+  focusedBorder: OutlineInputBorder(
+    borderSide: BorderSide(color: Colors.white, width: 2.0),
+  ),
+  border: OutlineInputBorder(
+    borderRadius: BorderRadius.all(
+      Radius.circular(10.0),
+    ),
+  ),
+);
+
 const kConditionTextStyle = TextStyle(
   fontSize: 100.0,
 );
